@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(49, 47, 47);
+}
+
+.seletor {
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+#voltar {
+    border-radius: 50%;
+    width: 5%;
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    color: #012030;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #DAFDBA, #9AEBA3, #45C4B0);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    background-image: url('../img/hana.jpg');
+    box-shadow: 5px 5px 5px rgba(1, 32, 48, 0.6);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8%;
+    }
+
+h1 {
+    text-align: center;
+    color: #012030;
+}
+
+h2 {
+    color: #13678A;
+}
