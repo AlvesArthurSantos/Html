@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body img {
+    width: 100vw;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+body a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: darkred;
+}
+
+body > a:hover {
+    background-color: red;
+}
