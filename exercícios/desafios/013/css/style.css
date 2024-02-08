@@ -41,3 +41,28 @@ iframe#tela {
     width: 267px;
     height: 471px;
 }
+
+section#icones {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+section#icones a {
+    display: inline-block;
+    width: fit-content;
+}
+img.logo {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    box-sizing: border-box;
+}
+
+img.logo:hover {
+    border: 2px solid rgba(255, 255, 255, 0.638);
+    transform: translate(-3px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.597);
+    transition: transform 0.2s, border 0.1s;
+}
